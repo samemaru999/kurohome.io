@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マイページ</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            text-align: center;
+        }
+        nav li {
+            display: inline;
+            margin-right: 1em;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .container {
+            padding: 2em;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .papers, .activities {
+            margin-top: 2em;
+        }
+        .papers li, .activities li {
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>マイページ</h1>
+        <nav>
+            <ul>
+                <li><a href="#papers">論文</a></li>
+                <li><a href="#activities">活動記録</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="papers">
+            <h2>論文</h2>
+            <ul class="papers">
+                <li>論文1: <a href="link-to-paper1.pdf" target="_blank">タイトル1</a></li>
+                <li>論文2: <a href="link-to-paper2.pdf" target="_blank">タイトル2</a></li>
+                <!-- ここに他の論文を追加 -->
+            </ul>
+        </section>
+        <section id="activities">
+            <h2>活動記録</h2>
+            <ul class="activities">
+                <li>活動1: 詳細</li>
+                <li>活動2: 詳細</li>
+                <!-- ここに他の活動記録を追加 -->
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
